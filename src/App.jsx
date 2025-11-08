@@ -1,18 +1,32 @@
-import React from "react";
-import './index.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import PetOwner from "./pages/PetOwner";
+import Veterinarian from "./pages/Veterinarian";
+import Shelter from "./pages/Shelter";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Feedback from "./pages/Feedback";
 
-const App = () => {
+export default function App() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-blue-50">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">🐾 FurEver Care</h1>
-      <p className="text-gray-600 text-lg">
-        Tailwind CSS is working perfectly!
-      </p>
-      <button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-xl shadow">
-        Get Started
-      </button>
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col bg-gray-50">
+        <Navbar />
+        <main className="grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/petowner" element={<PetOwner />} />
+            <Route path="/veterinarian" element={<Veterinarian />} />
+            <Route path="/shelter" element={<Shelter />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/feedback" element={<Feedback />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
-};
-
-export default App;
+}

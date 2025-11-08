@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Footer = () => {
+export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="bg-blue-700 text-white text-center py-3 mt-8">
+      <p>© {new Date().getFullYear()} FurEver Care — All rights reserved 🐾</p>
+    </footer>
+  );
 }
-
-export default Footer
