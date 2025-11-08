@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Canin Puppy Food",
+    "category": "Food",
+    "price": "₹1200",
+    "image": "/images/food1.jpg",
+    "description": "High-protein dry food for puppies and small dogs."
+  },
+  {
+    "id": 2,
+    "name": "Whiskas Adult Cat Food",
+    "category": "Food",
+    "price": "₹950",
+    "image": "/images/catfood1.jpg",
+    "description": "Complete nutrition for adult cats."
+  },
+  {
+    "id": 3,
+    "name": "Chew Rope Toy",
+    "category": "Toys",
+    "price": "₹350",
+    "image": "/images/toy1.jpg",
+    "description": "Durable chew rope toy for dogs."
+  },
+  {
+    "id": 4,
+    "name": "Pet Grooming Brush",
+    "category": "Grooming Essentials",
+    "price": "₹500",
+    "image": "/images/brush1.jpg",
+    "description": "Soft bristles for safe and gentle grooming."
+  },
+  {
+    "id": 5,
+    "name": "Catnip Toy Set",
+    "category": "Toys",
+    "price": "₹299",
+    "image": "/images/toy2.jpg",
+    "description": "Set of 3 fun catnip-filled toys."
+  },
+  {
+    "id": 6,
+    "name": "Dog Leash and Collar Set",
+    "category": "Accessories",
+    "price": "₹799",
+    "image": "/images/collar1.jpg",
+    "description": "Adjustable leash and collar for small to medium dogs."
+  },
+  {
+    "id": 7,
+    "name": "Pet Water Fountain",
+    "category": "Accessories",
+    "price": "₹1500",
+    "image": "/images/fountain1.jpg",
+    "description": "Automatic water fountain to keep pets hydrated."
+  },
+  {
+    "id": 8,
+    "name": "Flea and Tick Prevention",
+    "category": "Health Products",
+    "price": "₹1200",
+    "image": "/images/health1.jpg",
+    "description": "Effective flea and tick prevention for dogs and cats."
+  }
+]
