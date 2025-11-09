@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Lisa Bennett",
+    "specialization": "Small Animal Medicine",
+    "contact": "lisa.bennett@furevercare.com",
+    "phone": "+1 (555) 203-4456",
+    "image": "/images/vet1.jpg",
+    "slots": ["10:00 AM", "12:00 PM", "3:00 PM", "5:00 PM"],
+    "cases": [
+      {
+        "pet": "Bella (Dog)",
+        "condition": "Skin Allergy",
+        "treatment": "Prescribed antihistamines and diet adjustment."
+      },
+      {
+        "pet": "Whiskers (Cat)",
+        "condition": "Dental Plaque",
+        "treatment": "Performed cleaning and fluoride application."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Raj Patel",
+    "specialization": "Exotic Animal Specialist",
+    "contact": "raj.patel@furevercare.com",
+    "phone": "+1 (555) 222-9876",
+    "image": "/images/vet2.jpg",
+    "slots": ["9:30 AM", "11:30 AM", "2:30 PM", "4:30 PM"],
+    "cases": [
+      {
+        "pet": "Milo (Rabbit)",
+        "condition": "Digestive Issue",
+        "treatment": "Provided probiotics and monitored diet."
+      },
+      {
+        "pet": "Spike (Iguana)",
+        "condition": "Calcium Deficiency",
+        "treatment": "Recommended UVB exposure and calcium supplements."
+      }
+    ]
+  }
+]

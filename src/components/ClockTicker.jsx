@@ -1,9 +1,16 @@
-import React from 'react'
+import { useEffect, useState } from "react";
 
-const ClockTicker = () => {
+export default function ClockTicker() {
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setTime(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
-    <div>ClockTicker</div>
-  )
+    <span className="font-mono text-sm text-gray-700">
+      🕒 {time.toLocaleTimeString()}
+    </span>
+  );
 }
-
-export default ClockTicker

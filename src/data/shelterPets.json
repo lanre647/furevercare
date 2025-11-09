@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "type": "Dog",
+    "age": "2 years",
+    "status": "Available",
+    "image": "/images/dog1.jpg",
+    "description": "Friendly Golden Retriever who loves fetch and belly rubs."
+  },
+  {
+    "id": 2,
+    "name": "Whiskers",
+    "type": "Cat",
+    "age": "1 year",
+    "status": "Adopted",
+    "image": "/images/cat1.jpg",
+    "description": "Quiet indoor cat who enjoys naps in sunny spots."
+  },
+  {
+    "id": 3,
+    "name": "Rocky",
+    "type": "Dog",
+    "age": "3 years",
+    "status": "Available",
+    "image": "/images/dog2.jpg",
+    "description": "Energetic Husky that needs regular exercise and attention."
+  },
+  {
+    "id": 4,
+    "name": "Luna",
+    "type": "Cat",
+    "age": "8 months",
+    "status": "Available",
+    "image": "/images/cat2.jpg",
+    "description": "Curious kitten with a playful and affectionate personality."
+  }
+]
