@@ -26,7 +26,7 @@ export default function About() {
 
   return (
     <motion.div
-      className="p-8 bg-gradient-to-b from-blue-50 to-white min-h-screen"
+      className="p-8 pt-24 bg-gradient-to-b from-blue-50 to-white min-h-screen"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

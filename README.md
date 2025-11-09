@@ -1,16 +1,34 @@
-# React + Vite
+# FurEver Care 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FurEver Care is a modern web application that connects pet owners, veterinarians, and animal shelters in one unified platform. Built with React and Tailwind CSS, it provides a seamless experience for managing pet care, adoptions, and veterinary services.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multi-User Platform**
+  - Pet Owner Dashboard
+  - Veterinarian Portal
+  - Animal Shelter Management
+  - Role-based Access Control
 
-## React Compiler
+- **Key Functionalities**
+  - Pet Care Management
+  - Adoption Services
+  - Veterinary Scheduling
+  - Real-time Updates
+  - Responsive Design
+  - Smooth Page Transitions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- React Router DOM
+- Framer Motion
+- Tailwind CSS
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```sh
+git clone https://github.com/lanre647/furevercare.git
+cd furevercare

@@ -28,7 +28,7 @@ export default function PetOwner() {
   const categories = [...new Set(products.map((p) => p.category))];
 
   return (
-    <div className="p-8">
+    <div className="p-8 pt-24">
       <h2 className="text-3xl font-semibold text-blue-700 mb-2 text-center">
         Welcome, {name}! 🐶
       </h2>
